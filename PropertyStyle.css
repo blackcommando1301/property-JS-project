@@ -62,15 +62,19 @@ input{
 }
 .basic{
     background-color: aqua;
+    word-wrap: break-word;
+    padding: 5px;
 }
 
 .descr{
     background-color: cadetblue;
-    min-width: 5vw;
+   
+   word-wrap: break-word;
+   padding: 8px;
 }
 
 .deletetog{
     color: black;
     cursor:grab;
-    padding: 0.5rem  bnas;
+    padding: 1px;
 }
