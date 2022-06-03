@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EAEA7F;
+}
+
+.heading{
+    text-align: center;
+font-size: xx-large;
+background-color: #333C83;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    background-color: #F24A72;
+}
+.enter{
+    height: 7vh;
+    
+  
+    margin: 0.5%;
+}
+input{
+    min-height: 7vh;
+     width: 20vw;
+    background-color: aliceblue;
+    font-size: larger;
+    padding: 0.2rem;
+
+}
+.function{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FDAF75;
+    height: 6vh;
+}
+.tog{
+    height: 2vh;
+    width: 5vw;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+.ticket-container{
+    background-color: #EAEA7F;
+    height: 79vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ticket{
+    background-color: aliceblue;
+    height: 22vh;
+    width: 26vw;
+    margin: 2%;
+    
+}
+.basic{
+    background-color: aqua;
+}
+
+.descr{
+    background-color: cadetblue;
+    min-width: 5vw;
+}
+
+.deletetog{
+    color: black;
+    cursor:grab;
+    padding: 0.5rem  bnas;
+}
